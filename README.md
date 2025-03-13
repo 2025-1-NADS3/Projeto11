@@ -104,7 +104,7 @@ Coloque código do prompt de comnando se for necessário
 ```
 
 ## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+<https://FecaPass © 2025 by Adriano Xu, Anie Bissoli, Erika Santana, Isabela Nunes is licensed under CC BY 4.0 />
 
 ## 🎓 Referências
 
