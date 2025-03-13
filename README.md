@@ -104,7 +104,8 @@ Coloque código do prompt de comnando se for necessário
 ```
 
 ## 📋 Licença/License
-<https://FecaPass © 2025 by Adriano Xu, Anie Bissoli, Erika Santana, Isabela Nunes is licensed under CC BY 4.0 />
+Este trabalho está licenciado sob [FecaPass](https://FecaPass)© 2025 de Adriano Xu, Anie Bissoli, Erika Santana e Isabela Nunes, está licenciado sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
+
 
 ## 🎓 Referências
 
