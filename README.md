@@ -5,7 +5,7 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-## F🎟️ FecaPass
+## 🎟️ FecaPass
 
 ## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Adriano Xu</a>, <a href="https://www.linkedin.com/in/anie-bissoli/">Anie Bissoli</a>, <a href="https://www.linkedin.com/in/erika-santana-da-silva-88744721b/">Erika Santana</a>, <a href="https://www.linkedin.com/in/isabela-nunes-zeferino/">Isabela Nunes</a>.
 
