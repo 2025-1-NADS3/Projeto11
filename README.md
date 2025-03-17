@@ -1,8 +1,3 @@
-```sh
-Utilize o site <https://www.toptal.com/developers/gitignore> para gerar seu arquivo gitignore e apague este campo.
-
-Vide tutoriais do PI.
-```
 
 # FECAP - Fundação de Comércio Álvares Penteado
 
@@ -75,8 +70,6 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
 </div>
 
 
-## 🛠 Instalação
-
 <h2>💻 Configuração para Desenvolvimento</h2>
 
 <h3>🚀 Passo a Passo para Configurar o Android Studio</h3>
@@ -130,7 +123,6 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
   <li><b>Figma</b>: Para prototipagem e design de interface do usuário.</li>
   <li><b>Canva</b>: Para criação de ícones, banners e materiais visuais adicionais.</li>
 </ul>
-
 
 
 
