@@ -10,11 +10,11 @@ Vide tutoriais do PI.
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# FecaPass
+## F🎟️ FecaPass
 
 ## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Adriano Xu</a>, <a href="https://www.linkedin.com/in/anie-bissoli/">Anie Bissoli</a>, <a href="https://www.linkedin.com/in/erika-santana-da-silva-88744721b/">Erika Santana</a>, <a href="https://www.linkedin.com/in/isabela-nunes-zeferino/">Isabela Nunes</a>.
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/vheltai/">Vinicius Heltai</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Lopes </a>,<a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>.
 
 ## Descrição
 
@@ -24,12 +24,11 @@ Vide tutoriais do PI.
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+FecaPass é uma plataforma inovadora para a compra de ingressos para eventos e palestras no Teatro FECAP. Com uma interface intuitiva, estudantes e demais interessados podem navegar pelos eventos disponíveis, selecionar ingressos e realizar pagamentos de forma rápida e segura.
 <br><br>
-May the force be with you!
-<br><br>
+
 
 ## 🛠 Estrutura de pastas
 
@@ -62,44 +61,78 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
+## 📄 Protótipo no Figma 
+
+Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/design/2f2lzpHfLMNlusgG5rTXE3/Untitled?node-id=0-1) para conferir o design e a interação.
+
+
+## ✔ Linguagens e Tecnologias Usadas
+
+<div style="display: flex; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="40" height="40" alt="Android Studio" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" alt="SQLite" />
+</div>
+
+
 ## 🛠 Instalação
 
-<b>Android:</b>
+<h2>💻 Configuração para Desenvolvimento</h2>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+<h3>🚀 Passo a Passo para Configurar o Android Studio</h3>
+<ol>
+  <li><b>Instale o Android Studio</b><br>
+    Acesse <a href="https://developer.android.com/studio" target="_blank">developer.android.com/studio</a> e baixe a versão mais recente para seu sistema operacional. 
+  </li>
+  <li><b>Configuração Inicial</b><br>
+    Após instalar, abra o Android Studio e siga as instruções para configurar o ambiente de desenvolvimento, incluindo a instalação do SDK do Android.
+  </li>
+  <li><b>Crie um Novo Projeto</b><br>
+    No Android Studio, clique em <code>Start a new Android Studio project</code>, escolha um modelo de atividade e configure as opções do projeto.
+  </li>
+  <li><b>Execute o Projeto</b><br>
+    Conecte um dispositivo físico via USB ou use o emulador do Android Studio para testar o aplicativo. Clique em "Run" (ícone ▶️) para iniciar o app.
+  </li>
+</ol>
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+<hr>
 
-<b>Windows:</b>
+<h3>🔧 Ferramentas de Desenvolvimento:</h3>
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+<h4>1. IDE e Editor de Código 🖥️</h4>
+<ul>
+  <li><b>Android Studio</b>: Ambiente oficial para desenvolvimento Android, com suporte a Kotlin e Java.</li>
+</ul>
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+<h4>2. Versionamento de Código 🗂️</h4>
+<ul>
+  <li><b>Git</b>: Sistema de controle de versão para gerenciar alterações e colaborar com a equipe.</li>
+  <li><b>GitHub</b>: Hospedagem de repositórios para colaboração e gerenciamento do projeto.</li>
+</ul>
 
-<b>HTML:</b>
+<h4>3. Banco de Dados 🛠️</h4>
+<ul>
+  <li><b>SQLite</b>: Banco de dados leve e integrado ao Android para armazenamento local.</li>
+</ul>
 
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+<h4>4. Linguagem de Programação 🖥️</h4>
+<ul>
+  <li><b>Java</b>: Uma das principais linguagens para desenvolvimento de aplicativos Android.</li>
+</ul>
 
-## 💻 Configuração para Desenvolvimento
+<h4>5. Sistema Operacional 🖥️</h4>
+<ul>
+  <li><b>Windows, macOS ou Linux</b>: O Android Studio é compatível com os três sistemas.</li>
+</ul>
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+<h4>6. Ferramentas de Design 🎨</h4>
+<ul>
+  <li><b>Figma</b>: Para prototipagem e design de interface do usuário.</li>
+  <li><b>Canva</b>: Para criação de ícones, banners e materiais visuais adicionais.</li>
+</ul>
 
-Para abrir este projeto você necessita das seguintes ferramentas:
 
--<a href="https://godotengine.org/download">GODOT</a>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 📋 Licença/License
 Este trabalho está licenciado sob [FecaPass](https://FecaPass)© 2025 de Adriano Xu, Anie Bissoli, Erika Santana e Isabela Nunes, está licenciado sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
