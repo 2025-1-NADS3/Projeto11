@@ -2,7 +2,7 @@
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+<a href= "https://www.fecap.br/"><img src="https://mail.google.com/mail/u/0/?ui=2&ik=558e289cb3&attid=0.1&permmsgid=msg-a:r-4999440149890328568&th=195b11373dba836e&view=fimg&realattid=ii_m8gnemm90&disp=thd&attbid=ANGjdJ_Dg0uBpXnGzu3Vqs_m8cOSkVQQF1POSlGPHqUvpFU9trZ0CWfrjJDGq03656vrmVZYWPpdSflQiaWrAldDqeHdRPDobE40S6Q6W_pFBEWGy6je_WVdm2zIQGk&ats=2524608000000&sz=w1366-h641" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
 ## 🎟️ FecaPass
