@@ -1,0 +1,8 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#4BD3E7</color>
+    <color name="secondary">#00B3C9</color>
+    <color name="inputBackground">#F5F9FE</color>
+    <color name="textColor">#025E6D</color>
+    <color name="escuro">#000000</color>
+</resources>
