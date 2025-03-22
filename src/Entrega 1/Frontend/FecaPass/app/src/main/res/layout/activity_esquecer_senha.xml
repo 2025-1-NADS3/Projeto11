@@ -50,7 +50,7 @@
             android:layout_height="63dp"
             android:layout_marginBottom="20dp"
             android:fontFamily="serif"
-            android:text="Não se preocupe! Insira seu e-mail abaixo e enviaremos um link para redefinir sua senha."
+            android:text="Não se preocupe! Insira seu e-mail abaixo e enviaremos um link para redefinir sua senha"
             android:textColor="#3B404D"
             android:textSize="18sp"
             android:textStyle="bold" />
