@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <!-- Título Esqueceu a senha -->
+        <TextView
+            android:id="@+id/textEntrar"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="20dp"
+            android:text="Esqueceu a senha ?"
+            android:textColor="@color/azul3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Ilustração -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="248dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Logo FecaPass"
+            android:src="@drawable/illustration" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textTexto"
+            android:layout_width="281dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="serif"
+            android:text="Não se preocupe! Insira seu e-mail abaixo e enviaremos um link para redefinir sua senha."
+            android:textColor="#3B404D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="31dp" />
+
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:background="@android:drawable/editbox_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+        <!-- Botão Entrar -->
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Entrar"
+            android:backgroundTint="@color/azul2"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

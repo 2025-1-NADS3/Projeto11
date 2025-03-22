@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
-            android:name=".excluirContaTelaPerfil"
+            android:name=".esquecerSenha"
             android:exported="false" />
         <activity
-            android:name=".esquecerSenha"
+            android:name=".excluirContaTelaPerfil"
             android:exported="false" />
         <activity
             android:name=".main_cadastrar"

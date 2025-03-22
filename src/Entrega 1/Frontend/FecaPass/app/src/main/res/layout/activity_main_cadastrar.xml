@@ -5,6 +5,106 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main_cadastrar">
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <!-- Logo -->
+
+        <!-- Título Cadastre-se -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Logo FecaPass"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textCadastrese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Cadastre-se"
+            android:textColor="@color/azul3"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Espaço para empurrar os campos mais para baixo -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <!-- Campos de Entrada / nome -->
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/etNome"
+            android:background="@android:drawable/editbox_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/etEmail"
+            android:background="@android:drawable/editbox_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Senha -->
+        <EditText
+            android:id="@+id/etSenha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/etSenha"
+            android:inputType="textPassword"
+            android:background="@android:drawable/editbox_background"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Concordo com as condições -->
+        <CheckBox
+            android:id="@+id/cbCondicoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cbCondicoes"
+            android:textSize="12sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Botão Criar Conta -->
+        <Button
+            android:id="@+id/btnCriarConta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/btnCriarConta"
+            android:backgroundTint="@color/azul2"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- Link para Login -->
+        <TextView
+            android:id="@+id/textentrarcont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:text="@string/textentrarcont"
+            android:textColor="@color/preto"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
