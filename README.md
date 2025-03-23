@@ -66,7 +66,7 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="40" height="40" alt="Android Studio" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" alt="SQLite" />
-  <img src="https://github.com/devicons/devicon/blob/v2.15.0/icons/nodejs/nodejs-original-wordmark.svg" />
+  <img src="https://github.com/devicons/devicon/blob/v2.15.0/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40" alt="Node.js" //>
 </div>
 
 
