@@ -1,110 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".main_cadastrar">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="24dp"
-        android:gravity="center_horizontal"
-        android:layout_gravity="center"
-        android:layout_weight="1">
+    <!-- A imagem do logo está centralizada e com um pequeno deslocamento -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Logo FecaPass"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
 
-        <!-- Logo -->
+    <!-- O título "Cadastre-se" em destaque -->
+    <TextView
+        android:id="@+id/titleCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Cadastre-se"
+        android:textColor="@color/azul3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
 
-        <!-- Título Cadastre-se -->
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="97dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="24dp"
-            android:contentDescription="Logo FecaPass"
-            android:src="@drawable/logo" />
+    <!-- Campo de e-mail com fundo customizado e padding para melhorar a experiência do usuário -->
+    <EditText
+        android:id="@+id/textmail"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/edit_text"
+        android:hint="Email"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/textCadastrese"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="Cadastre-se"
-            android:textColor="@color/azul3"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+    <!-- Campo de nome com mesma estrutura do campo de e-mail -->
+    <EditText
+        android:id="@+id/textnome"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="368dp"
+        android:background="@drawable/edit_text"
+        android:hint="Nome"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <!-- Espaço para empurrar os campos mais para baixo -->
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="46dp" />
+    <!-- Campo de senha com fundo customizado e padding para um design consistente -->
+    <EditText
+        android:id="@+id/textsenha"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="256dp"
+        android:background="@drawable/edit_text"
+        android:hint="Senha"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <!-- Campos de Entrada / nome -->
-        <EditText
-            android:id="@+id/etNome"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="@string/etNome"
-            android:background="@android:drawable/editbox_background"
-            android:padding="10dp"
-            android:layout_marginBottom="10dp"/>
-        <!-- Email -->
-        <EditText
-            android:id="@+id/etEmail"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="@string/etEmail"
-            android:background="@android:drawable/editbox_background"
-            android:padding="10dp"
-            android:layout_marginBottom="10dp"/>
+    <!-- Botão "Criar conta" com cor de fundo personalizada e texto branco -->
 
-        <!-- Senha -->
-        <EditText
-            android:id="@+id/etSenha"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="@string/etSenha"
-            android:inputType="textPassword"
-            android:background="@android:drawable/editbox_background"
-            android:padding="10dp"
-            android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_criar"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/azul2"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Criar conta"
+        android:textColor="@color/white"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
 
-        <!-- Concordo com as condições -->
-        <CheckBox
-            android:id="@+id/cbCondicoes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/cbCondicoes"
-            android:textSize="12sp"
-            android:layout_marginBottom="20dp"/>
+    <!-- CheckBox para os termos de uso -->
 
-        <!-- Botão Criar Conta -->
-        <Button
-            android:id="@+id/btnCriarConta"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="@string/btnCriarConta"
-            android:backgroundTint="@color/azul2"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:layout_marginBottom="40dp"/>
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:maxWidth="200dp"
+        android:text="Concordo com as condições de serviço e políticas"
+        android:textColor="@color/azul2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
 
-        <!-- Link para Login -->
-        <TextView
-            android:id="@+id/textentrarcont"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:text="@string/textentrarcont"
-            android:textColor="@color/preto"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+    <!-- Texto incentivando o login para quem já tem uma conta -->
+    <TextView
+        android:id="@+id/textTemConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Você tem uma conta ?"
+        android:textColor="@color/preto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
 
-    </LinearLayout>
+    <!-- Texto "Entrar" para quem já tem conta, direcionando para a tela de login -->
+    <TextView
+        android:id="@+id/textEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Entrar"
+        android:textColor="@color/azul3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
