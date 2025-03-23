@@ -27,6 +27,7 @@
             android:layout_height="32dp"
             android:layout_marginBottom="20dp"
             android:text="Esqueceu a senha ?"
+            android:fontFamily="@font/poppins_bold"
             android:textColor="@color/azul3"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -44,16 +45,17 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="25dp" />
+
         <TextView
             android:id="@+id/textTexto"
-            android:layout_width="281dp"
-            android:layout_height="63dp"
+            android:layout_width="301dp"
+            android:layout_height="84dp"
             android:layout_marginBottom="20dp"
-            android:fontFamily="serif"
-            android:text="Não se preocupe! Insira seu e-mail abaixo e enviaremos um link para redefinir sua senha"
-            android:textColor="#3B404D"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Não se preocupe! Insira seu e-mail abaixo e enviaremos um link para redefinir sua senha."
+            android:textColor="@color/preto"
             android:textSize="18sp"
-            android:textStyle="bold" />
+             />
 
         <Space
             android:layout_width="match_parent"
@@ -62,12 +64,12 @@
 
         <EditText
             android:id="@+id/etEmail"
-            android:layout_width="match_parent"
+            android:layout_width="306dp"
             android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text"
             android:hint="Email"
-            android:background="@android:drawable/editbox_background"
-            android:padding="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:padding="10dp" />
 
         <Space
             android:layout_width="match_parent"
@@ -76,13 +78,14 @@
         <!-- Botão Entrar -->
         <Button
             android:id="@+id/btnEntrar"
-            android:layout_width="match_parent"
+            android:layout_width="302dp"
             android:layout_height="50dp"
-            android:text="Entrar"
+            android:layout_marginBottom="40dp"
             android:backgroundTint="@color/azul2"
+            android:text="Entrar"
+            android:fontFamily="@font/poppins_bold"
             android:textColor="@color/white"
-            android:textStyle="bold"
-            android:layout_marginBottom="40dp"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 
