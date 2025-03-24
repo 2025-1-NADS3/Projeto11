@@ -1,92 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".entrar">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <!-- Botão de voltar -->
+
+    <ImageView
+        android:id="@+id/btnVoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:contentDescription="Voltar"
+        android:src="@drawable/voltar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <!-- Ilustração -->
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="293dp"
+        android:layout_height="179dp"
+        android:contentDescription="ilustracao"
+        android:src="@drawable/illustration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <!-- Título -->
+
+    <TextView
+        android:id="@+id/titleEsqueceuSenha"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:padding="24dp"
-        tools:ignore="MissingConstraints">
+        android:fontFamily="@font/poppins_bold"
+        android:text="Esqueceu a senha ?"
+        android:textColor="@color/azul3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
 
-        <!-- Botão de voltar -->
+    <!-- Texto "Esqueceu a senha?" -->
 
-        <ImageView
-            android:id="@+id/btnVoltar"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="24dp"
-            android:contentDescription="Voltar"
-            android:src="@drawable/voltar"
-            android:layout_gravity="start" />
+    <TextView
+        android:id="@+id/txtEsqueceuSenha"
+        android:layout_width="242dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Não se preocupe! Digite seu e-mail para recuperar sua senha! "
+        android:textColor="@color/preto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
 
-        <!-- Título "Esqueceu a senha ? " -->
+    <!-- Campo de e-mail com fundo customizado-->
 
-        <TextView
-            android:id="@+id/textEsquecerSenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/poppins_bold"
-            android:text="Esqueceu a senha?"
-            android:textColor="@color/azul3"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+    <EditText
+        android:id="@+id/textmail"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/edit_text"
+        android:hint="Email"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <!-- Logo FecaPass -->
+    <!-- Campo para resetar a senha com fundo customizado-->
 
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="248dp"
-            android:layout_height="173dp"
-            android:layout_marginTop="20dp"
-            android:contentDescription="Ilustração"
-            android:src="@drawable/illustration" />
+    <EditText
+        android:id="@+id/textsenha"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/edit_text"
+        android:hint="Nova senha"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <!-- Texto recuperação de email -->
+    <!-- Botão para confirmar nova senha-->
 
-        <TextView
-            android:id="@+id/textTexto"
-            android:layout_width="301dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/poppins_regular"
-            android:text="Não se preocupe! Insira seu e-mail abaixo e enviaremos um link para redefinir sua senha."
-            android:textColor="@color/preto"
-            android:textSize="18sp" />
-
-        <!-- Campo de E-mail -->
-
-        <EditText
-            android:id="@+id/etEmail"
-            android:layout_width="306dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/edit_text"
-            android:hint="Email"
-            android:padding="10dp" />
-
-        <!-- Botão "Entrar" -->
-
-        <Button
-            android:id="@+id/btn_entrar"
-            android:layout_width="306dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="50dp"
-            android:backgroundTint="@color/azul2"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="Entrar"
-            android:textColor="@color/white"
-            app:cornerRadius="8dp" />
-
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/btn_confirmar"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/azul2"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Confirmar"
+        android:textColor="@color/white"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,6 +8,8 @@
     tools:context=".entrar">
 
     <!-- Botão de voltar -->
+
+    <!-- Logo FecaPass -->
     <ImageView
         android:id="@+id/btnVoltar"
         android:layout_width="50dp"
@@ -15,11 +17,10 @@
         android:layout_gravity="start"
         android:contentDescription="Voltar"
         android:src="@drawable/voltar"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="30dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="46dp" />
 
-    <!-- Logo FecaPass -->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
