@@ -28,3 +28,25 @@ exports.getUsers = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 };
+
+exports.updateUser = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const { nome, senha } = req.body;
+        const user = await userService.updateUser(id, nome, senha);
+        res.json({ message: "Usuário atualizado com sucesso!", user });
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+};
+
+exports.deleteUser = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const { senha } = req.body;
+        const message = await userService.deleteUser(id, senha);
+        res.json(message);
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+};
