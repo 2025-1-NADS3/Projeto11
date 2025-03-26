@@ -10,22 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project"
+        android:theme="@style/Theme.FecapassJava"
         tools:targetApi="31">
+        <activity android:name=".TelaEntrar"></activity>
+        <activity android:name=".EsqueciSenha"/>
+
         <activity
-            android:name=".esquecerSenha"
-            android:exported="false" />
-        <activity
-            android:name=".excluirContaTelaPerfil"
-            android:exported="false" />
-        <activity
-            android:name=".main_cadastrar"
-            android:exported="false" />
-        <activity
-            android:name=".main_entrar"
-            android:exported="false" />
-        <activity
-            android:name=".entrar"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

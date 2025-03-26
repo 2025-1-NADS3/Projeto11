@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <ImageView
+            android:id="@+id/btnVoltar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:contentDescription="Voltar"
+            android:src="@drawable/voltar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="46dp" />
+        <!-- Título Esqueceu a senha -->
+        <TextView
+            android:id="@+id/titleEsqueceuSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginBottom="20dp"
+            android:text="Esqueceu a senha ?"
+            android:textColor="@color/appColor1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Ilustração -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="293dp"
+            android:layout_height="179dp"
+            android:contentDescription="ilustracao"
+            android:src="@drawable/illustration" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+
+        <TextView
+            android:id="@+id/txtEsqueceuSenha"
+            android:layout_width="287dp"
+            android:layout_height="103dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Não se preocupe! Insira seu e-mail abaixo e enviaremos um link para redefinir sua senha."
+            android:textColor="#3B404D"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="31dp" />
+
+
+        <EditText
+            android:id="@+id/textmail"
+            android:layout_width="306dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:background="@drawable/edit_text"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+        <!-- Botão Entrar -->
+        <Button
+            android:id="@+id/btn_confirmar"
+            android:layout_width="306dp"
+            android:layout_height="54dp"
+            android:backgroundTint="@color/appColor2"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Confirmar"
+            android:textColor="@color/white"
+            app:cornerRadius="8dp"
+
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.FecaPass" parent="Theme.MaterialComponents.Light">
-        <!-- Definindo uma fonte padrão para a aplicação -->
-        <item name="android:fontFamily">@font/poppins_regular</item>
-    </style>
-
-    <!-- Estilo para TextView com fonte semibold -->
-    <style name="TextViewStyle" parent="TextAppearance.AppCompat.Medium">
-        <item name="android:fontFamily">@font/poppins_semibold</item>
-    </style>
-
-    <!-- Estilo para TextView com fonte bold -->
-    <style name="TextViewBoldStyle" parent="TextAppearance.AppCompat.Medium">
-        <item name="android:fontFamily">@font/poppins_bold</item>
+    <style name="Base.Theme.FecapassJava" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>
