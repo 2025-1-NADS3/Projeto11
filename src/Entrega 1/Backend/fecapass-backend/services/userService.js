@@ -1,8 +1,6 @@
 const User = require('../models/user');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const crypto = require('crypto');
-const nodemailer = require('nodemailer');
 
 // Validações
 const validarNome = (nome) => {
@@ -24,6 +22,7 @@ const validarSenha = (senha) => {
            /\d/.test(senha) &&
            !/\s/.test(senha);
 };
+
 
 const cadastrarUsuario = async (nome, email, senha) => {
     if (!validarNome(nome)) {
