@@ -119,7 +119,7 @@
             android:backgroundTint="@color/appColor2"
             android:fontFamily="@font/poppins_semibold"
             android:text="Entrar"
-            android:textColor="@color/appColor6"
+            android:textColor="@color/white2"
             android:textStyle="bold"
             app:cornerRadius="8dp" />
 
