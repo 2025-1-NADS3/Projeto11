@@ -114,7 +114,9 @@
             android:backgroundTint="@color/appColor2"
             android:textColor="@color/white2"
             android:textStyle="bold"
-            android:onClick="verificarUsuario"/>
+            android:onClick="cadastrarUsuario"
+
+            />
 
         <!-- Link para Login -->
          <TextView

@@ -10,8 +10,4 @@ public class EsqueciSenha extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.telaesquecisenha); // Defina o layout para essa tela
     }
-
-
-
-
 }
