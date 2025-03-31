@@ -4,11 +4,20 @@ exports.cadastro = async (req, res) => {
   try {
     const { nome, email, senha } = req.body;
     const user = await userService.cadastrarUsuario(nome, email, senha);
-    res.status(201).json({ message: "Usuário cadastrado com sucesso!", user });
+    
+    return res.status(201).json({
+      success: true,
+      message: "Usuário cadastrado com sucesso!",
+      user
+    });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    return res.status(400).json({
+      success: false,
+      message: error.message
+    });
   }
 };
+
 
 exports.login = async (req, res) => {
   try {
