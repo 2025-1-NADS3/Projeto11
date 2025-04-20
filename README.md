@@ -108,7 +108,7 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
 
 <h4>3. Banco de Dados 🛠️</h4>
 <ul>
-  <li><b>SQLite</b>: Banco de dados leve e integrado ao Android para armazenamento local.</li>
+  <li><b>MySQL</b>: Banco de dados relacional amplamente utilizado para aplicações web e sistemas corporativos, conhecido por sua robustez e escalabilidade.</li>
 </ul>
 
 <h4>4. Linguagem de Programação 🖥️</h4>
