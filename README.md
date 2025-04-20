@@ -62,12 +62,15 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
 
 ## ✔ Linguagens e Tecnologias Usadas
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; gap: 10px;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="40" height="40" alt="Android Studio" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" alt="SQLite" />
-  <img src="https://github.com/devicons/devicon/blob/v2.15.0/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js" //>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" />
 </div>
+
 
 
 <h2>💻 Configuração para Desenvolvimento</h2>
@@ -105,7 +108,7 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
 
 <h4>3. Banco de Dados 🛠️</h4>
 <ul>
-  <li><b>SQLite</b>: Banco de dados leve e integrado ao Android para armazenamento local.</li>
+  <li><b>MySQL</b>: Banco de dados relacional amplamente utilizado para aplicações web e sistemas corporativos, conhecido por sua robustez e escalabilidade.</li>
 </ul>
 
 <h4>4. Linguagem de Programação 🖥️</h4>
