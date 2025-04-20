@@ -102,18 +102,31 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.724" />
 
-        <Button
-            android:id="@+id/btnCriarConta"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/BtnCriarConta"
             android:layout_width="306dp"
             android:layout_height="54dp"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/btnCriarConta"
-            android:textSize="15sp"
-            app:cornerRadius="20dp"
-            android:backgroundTint="@color/azul2"
-            android:textColor="@color/branco"
-            android:onClick="cadastrarUsuario"
-            android:elevation="90dp" />
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@color/azul2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.921">
+
+            <Button
+                android:id="@+id/btnCriarConta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:text="@string/textCadastrese"
+                android:textColor="@color/branco"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:stateListAnimator="@null" />
+        </androidx.cardview.widget.CardView>
 
         <!-- Link para Login -->
          <TextView

@@ -110,18 +110,31 @@
             android:textStyle="bold" />
 
         <!-- Botão Entrar -->
-        <Button
-            android:id="@+id/btnEntrar"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/BtnEntrar"
             android:layout_width="306dp"
             android:layout_height="54dp"
-            android:layout_marginBottom="40dp"
-            android:backgroundTint="@color/azul2"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="Entrar"
-            android:textColor="@color/branco"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            app:cornerRadius="20dp" />
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@color/azul2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.921">
+
+            <Button
+                android:id="@+id/btnCriarConta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Entrar"
+                android:textColor="@color/branco"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:stateListAnimator="@null" />
+        </androidx.cardview.widget.CardView>
 
         <!-- Link para Cadastro -->
         <TextView

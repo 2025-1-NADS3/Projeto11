@@ -56,33 +56,59 @@
          Ele é posicionado no centro da tela utilizando o ConstraintLayout, com todas as restrições que garantem seu posicionamento
          de forma adequada na tela. -->
 
-    <Button
-        android:id="@+id/btn_excluir"
+    <androidx.cardview.widget.CardView
         android:layout_width="306dp"
         android:layout_height="54dp"
-        android:backgroundTint="@color/vermelho"
-        android:fontFamily="@font/poppins_semibold"
-        android:text="Excluir conta"
-        android:textColor="@color/branco"
-        android:textSize="15sp"
-        app:cornerRadius="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/vermelho"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="620dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/vermelho"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="620dp"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Botão transparente sobre o fundo do CardView -->
+            <Button
+                android:id="@+id/btn_excluir"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Excluir conta"
+                android:textColor="@color/branco"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:stateListAnimator="@null"
+                android:paddingStart="24dp" /> <!-- Deixa espaço pro ícone -->
+
+            <!-- Ícone posicionado manualmente -->
+            <ImageView
+                android:id="@+id/btnSair"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="Ícone sair"
+                android:src="@drawable/sair" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+
     <!-- Botão para excluir a conta. Ele tem uma cor de fundo vermelha, o texto "Excluir conta", e um raio de borda de 8dp.
          A posição do botão foi definida por coordenadas absolutas para o design (não sendo constrangido pelo ConstraintLayout).
          A cor do texto é branca, e a fonte utilizada é "poppins_semibold". -->
-
-    <ImageView
-        android:id="@+id/btnSair"
-        android:layout_width="45dp"
-        android:layout_height="37dp"
-        android:layout_gravity="start"
-        android:contentDescription="Voltar"
-        android:src="@drawable/sair"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="628dp" />
 
     <ImageView
         android:id="@+id/imageView"

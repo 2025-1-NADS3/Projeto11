@@ -174,22 +174,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.803" />
 
-    <Button
-        android:id="@+id/btnCriarConta"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBtnComprarIngresso"
         android:layout_width="306dp"
         android:layout_height="54dp"
-        android:backgroundTint="@color/azul2"
-        android:elevation="90dp"
-        android:fontFamily="@font/poppins_semibold"
-        android:text="@string/textComprarIngresso"
-        android:textSize="15sp"
-        app:cornerRadius="20dp"
-        android:textColor="@color/branco"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/azul2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.921" />
+        app:layout_constraintVertical_bias="0.921">
+
+        <Button
+            android:id="@+id/btnComprar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="@string/textComprarIngresso"
+            android:textColor="@color/branco"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:stateListAnimator="@null" />
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
