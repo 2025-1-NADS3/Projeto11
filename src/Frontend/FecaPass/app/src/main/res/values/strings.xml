@@ -10,4 +10,5 @@
     <string name="titulo_politica">Política do evento</string>
     <string name="texto_politica">Cancelamentos de pedidos serão aceitos até 7 dias após a compra, desde que a solicitação seja enviada até 48 horas antes do início do evento.</string>
     <string name="botao_comprar">Comprar ingresso</string>
+    <string name="pix">Após o QRCode do pix ser gerado, você tem 30 minutos para efetuar o pagamento. Caso contrário o pedido será automaticamente cancelado.</string>
 </resources>
