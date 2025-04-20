@@ -21,8 +21,8 @@
 
         <ImageView
             android:id="@+id/btnVoltar"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:contentDescription="Voltar"
             android:src="@drawable/voltar"
