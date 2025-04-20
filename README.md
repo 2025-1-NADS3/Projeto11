@@ -69,8 +69,9 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma" />
-  <img src="https://seeklogo.com/images/M/miro-logo-6F382CBDC5-seeklogo.com.png" width="40" height="40" alt="Miro" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Miro_logo.svg/512px-Miro_logo.svg.png" width="40" height="40" alt="Miro" />
 </div>
+
 
 
 
