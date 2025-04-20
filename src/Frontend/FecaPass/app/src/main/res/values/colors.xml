@@ -8,5 +8,6 @@
     <color name="azul5">#4BD3E7</color>
     <color name="branco">#ffffff</color>
     <color name="preto">#000000</color>
+    <color name="cinza_claro">#F2EFEF</color>
     <color name="vermelho">#E33131</color>
 </resources>
