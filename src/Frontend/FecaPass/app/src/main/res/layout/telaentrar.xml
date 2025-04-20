@@ -120,7 +120,8 @@
             android:text="Entrar"
             android:textColor="@color/branco"
             android:textStyle="bold"
-            app:cornerRadius="8dp" />
+            android:textSize="15sp"
+            app:cornerRadius="20dp" />
 
         <!-- Link para Cadastro -->
         <TextView

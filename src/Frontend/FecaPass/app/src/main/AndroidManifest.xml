@@ -2,11 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="br.fecapads.fecapassjava">
-
     <!-- Permissão para acessar a Internet -->
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!-- Configuração de segurança de rede (se você estiver utilizando HTTP no Android 9 ou superior) -->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,17 +15,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FecapassJava"
         tools:targetApi="31">
-
-        <!-- Atividades do app -->
-        <activity android:name=".TelaEntrar"></activity>
-        <activity android:name=".EsqueciSenha"/>
-        <activity android:name=".CadastroResultado"></activity>
-
+        <activity
+            android:name=".SelecaoCompra"
+            android:exported="false" />
+        <activity
+            android:name=".EventoFecapejada"
+            android:exported="false" /> <!-- Atividades do app -->
+        <activity android:name=".TelaEntrar" />
+        <activity android:name=".EsqueciSenha" />
+        <activity android:name=".CadastroResultado" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

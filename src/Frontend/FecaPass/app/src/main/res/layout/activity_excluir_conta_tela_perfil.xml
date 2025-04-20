@@ -64,7 +64,8 @@
         android:fontFamily="@font/poppins_semibold"
         android:text="Excluir conta"
         android:textColor="@color/branco"
-        app:cornerRadius="8dp"
+        android:textSize="15sp"
+        app:cornerRadius="20dp"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="620dp"
         tools:ignore="MissingConstraints" />
@@ -94,9 +95,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.231" />
-    <!-- Imagem do botão de sair, posicionado ao lado do botão de excluir conta.
-         Não foi dada uma restrição de layout, então ele usa uma posição absoluta para o design.
-         O ícone de saída tem uma descrição de acessibilidade para garantir que pessoas com deficiência visual saibam o que o botão faz. -->
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Nome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
     <!-- Fim do ConstraintLayout -->
