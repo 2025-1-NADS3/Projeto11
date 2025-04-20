@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- paleta de cores do proejto  -->
+    <color name="azul1">#025E6D</color>
+    <color name="azul2">#00B3C9</color>
+    <color name="azul3">#025E6D</color>
+    <color name="azul4">#14D9A1</color>
+    <color name="azul5">#4BD3E7</color>
+    <color name="branco">#ffffff</color>
+    <color name="preto">#000000</color>
+    <color name="vermelho">#E33131</color>
+</resources>

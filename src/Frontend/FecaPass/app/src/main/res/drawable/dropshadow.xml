@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Sombra -->
+        <item android:left="2dp" android:top="2dp">
+            <shape android:shape="rectangle">
+                <solid android:color="#55000000" /> <!-- cor da sombra (semi-transparente preta) -->
+                <corners android:radius="8dp" /> <!-- cantos arredondados -->
+            </shape>
+        </item>
+
+        <!-- Fundo transparente, sem interferir na cor do botão -->
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="@android:color/transparent" /> <!-- fundo transparente -->
+                <corners android:radius="8dp" /> <!-- cantos arredondados -->
+            </shape>
+        </item>
+    </layer-list>
+
+</resources>
