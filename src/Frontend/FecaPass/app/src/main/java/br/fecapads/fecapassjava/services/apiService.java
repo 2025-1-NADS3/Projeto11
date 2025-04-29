@@ -24,4 +24,37 @@ public class apiService {
             }
         }
     }
+    public String getEventos() throws IOException {
+        Request request = new Request.Builder()
+                .url(BASE_URL + "/listaEventos") // Endpoint para pegar os eventos
+                .get()
+                .build();
+
+        try (Response response = client.newCall(request).execute()) {
+            if (response.isSuccessful()) {
+                return response.body() != null ? response.body().string() : null;
+            } else {
+                return null;
+            }
+        }
+    }
+    public String realizarPagamento(String usuarioId, double valor) throws IOException {
+        String json = "{\"usuarioId\":\"" + usuarioId + "\", \"valor\":\"" + valor + "\"}";
+        RequestBody body = RequestBody.create(json, MediaType.get("application/json; charset=utf-8"));
+
+        Request request = new Request.Builder()
+                .url(BASE_URL + "/criarPagamento") // Chama o endpoint de pagamento no backend
+                .post(body)
+                .build();
+
+        try (Response response = client.newCall(request).execute()) {
+            if (response.isSuccessful()) {
+                // Se o pagamento foi bem-sucedido, retornamos o URL do QR code
+                return response.body() != null ? response.body().string() : "Erro no servidor";
+            } else {
+                return "Erro ao criar pagamento";
+            }
+        }
+    }
+
 }

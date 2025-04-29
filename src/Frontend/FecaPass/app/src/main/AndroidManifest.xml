@@ -15,8 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FecapassJava"
         tools:targetApi="31">
+
+
         <activity
             android:name=".ConfirmacaoPagamento"
+            android:exported="false" />
+        <activity
+            android:name=".EventoDetalhes"
             android:exported="false" />
         <activity
             android:name=".Pedido"
@@ -30,9 +35,8 @@
         <activity
             android:name=".SelecaoCompra"
             android:exported="false" />
-        <activity
-            android:name=".EventoFecapejada"
-            android:exported="false" /> <!-- Atividades do app -->
+
+        <activity android:name=".Eventos" />
         <activity android:name=".TelaEntrar" />
         <activity android:name=".EsqueciSenha" />
         <activity android:name=".CadastroResultado" />

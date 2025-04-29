@@ -8,7 +8,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CadastroResultado  extends AppCompatActivity {
-
     private ImageView resultadoImagem;
     private TextView resultadoMensagem;
 
@@ -20,12 +19,11 @@ public class CadastroResultado  extends AppCompatActivity {
         resultadoImagem = findViewById(R.id.resultadoImagem);
         resultadoMensagem = findViewById(R.id.resultadoMensagem);
 
-        // Pegando os dados passados pela Intent
         Intent intent = getIntent();
         boolean sucesso = intent.getBooleanExtra("sucesso", false);
         String mensagem = intent.getStringExtra("mensagem");
 
-        // Alterando a imagem e o texto com base no sucesso ou erro
+        // Alterando a imagem e texto com base no sucesso ou erro
         if (sucesso) {
             resultadoImagem.setImageResource(R.drawable.ic_check); // imagem de check
             resultadoMensagem.setText(mensagem);

@@ -9,8 +9,5 @@
     <string name="btnCriarConta">Criar Conta</string>
     <string name="textentrarcont">Você tem conta? Entrar</string>
     <string name="textComprarIngresso">Comprar ingresso</string>
-    <style name="SombraBotao">
-        <item name="android:background">@drawable/dropshadow</item>
-    </style>
 
 </resources>

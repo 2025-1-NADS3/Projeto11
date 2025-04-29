@@ -130,6 +130,7 @@
                 android:layout_height="match_parent"
                 android:backgroundTint="@android:color/transparent"
                 android:text="Entrar"
+                android:onClick="mudarTelaEvento"
                 android:textColor="@color/branco"
                 android:textSize="15sp"
                 android:fontFamily="@font/poppins_semibold"
