@@ -20,7 +20,17 @@
 
 
 <br><br>
-FecaPass é uma plataforma inovadora para a compra de ingressos para eventos e palestras no Teatro FECAP. Com uma interface intuitiva, estudantes e demais interessados podem navegar pelos eventos disponíveis, selecionar ingressos e realizar pagamentos de forma rápida e segura.
+ O FecaPass é um aplicativo de gestão e distribuição de ingressos voltado para a 
+realidade acadêmica da FECAP. A plataforma permite que alunos visualizem os 
+eventos disponíveis, realizem um cadastro rápido e possam adquirir ou resgatar 
+ingressos de forma digital, com segurança e praticidade. A proposta central é 
+simplificar a organização dos eventos internos por meio de uma interface acessível e 
+adaptada ao uso mobile. O sistema permite pagamentos via Pix, e garante que cada 
+ingresso seja emitido com um código único de pedido visível na tela “Meus Ingressos” 
+que assegura a identificação e o controle de acesso no momento do evento. Além 
+disso, o aplicativo disponibiliza informações completas sobre cada atividade, incluindo 
+data, local, horário, descrição e políticas de cancelamento, ajudando tanto os 
+participantes quanto os organizadores na gestão eficiente da experiência
 <br><br>
 
 
