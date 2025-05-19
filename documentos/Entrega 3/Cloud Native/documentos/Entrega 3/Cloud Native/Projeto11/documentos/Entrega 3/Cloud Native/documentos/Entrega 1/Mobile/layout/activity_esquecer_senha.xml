@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".entrar">
+
+    <!-- Botão de voltar -->
+
+    <ImageView
+        android:id="@+id/btnVoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:contentDescription="Voltar"
+        android:src="@drawable/voltar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <!-- Ilustração -->
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="293dp"
+        android:layout_height="179dp"
+        android:contentDescription="ilustracao"
+        android:src="@drawable/illustration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <!-- Título -->
+
+    <TextView
+        android:id="@+id/titleEsqueceuSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Esqueceu a senha ?"
+        android:textColor="@color/azul3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <!-- Texto "Esqueceu a senha?" -->
+
+    <TextView
+        android:id="@+id/txtEsqueceuSenha"
+        android:layout_width="242dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Não se preocupe! Digite seu e-mail para recuperar sua senha! "
+        android:textColor="@color/preto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <!-- Campo de e-mail com fundo customizado-->
+
+    <EditText
+        android:id="@+id/textmail"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/edit_text"
+        android:hint="Email"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Campo para resetar a senha com fundo customizado-->
+
+    <EditText
+        android:id="@+id/textsenha"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/edit_text"
+        android:hint="Nova senha"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Botão para confirmar nova senha-->
+
+    <Button
+        android:id="@+id/btn_confirmar"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/azul2"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Confirmar"
+        android:textColor="@color/white"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
