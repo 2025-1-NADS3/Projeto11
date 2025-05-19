@@ -15,7 +15,7 @@
 - [Erika Santana](https://www.linkedin.com/in/erika-santana-da-silva-88744721b/)
 - [Isabela Nunes](https://www.linkedin.com/in/isabela-nunes-zeferino/)
 
-### 🧑‍🏫 Professores Orientadores:
+## 🧑‍🏫 Professores Orientadores:
 - [Vinicius Heltai](https://www.linkedin.com/in/vheltai/)
 - [Aimar Lopes](https://www.linkedin.com/in/aimarlopes/)
 - [Francisco Escobar](https://www.linkedin.com/in/francisco-escobar/)
@@ -41,6 +41,13 @@ que assegura a identificação e o controle de acesso no momento do evento. Alé
 disso, o aplicativo disponibiliza informações completas sobre cada atividade, incluindo 
 data, local, horário, descrição e políticas de cancelamento, ajudando tanto os 
 participantes quanto os organizadores na gestão eficiente da experiência.
+
+### Funcionalidades principais:
+- 🔍 Navegação entre eventos com data, local e políticas de cancelamento;
+- 📲 Cadastro e autenticação rápida;
+- 💳 Pagamento via Pix integrado;
+- 🔐 Código único gerado por ingresso;
+- 🎫 Tela "Meus Ingressos" para visualização e controle.
 <br><br>
 
 
