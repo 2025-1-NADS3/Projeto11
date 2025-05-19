@@ -24,9 +24,8 @@
 ## Descrição
 
 <p align="center">
-<img src="https://github.com/2025-1-NADS3/Projeto11/blob/main/imagens/fecapass.png" alt="FecaPass" border="0">
+  <img src="https://raw.githubusercontent.com/2025-1-NADS3/Projeto11/main/imagens/fecapass.png" alt="FecaPass" border="0">
 </p>
-
 
 
 <br><br>
