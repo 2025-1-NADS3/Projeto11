@@ -38,6 +38,7 @@
 
         <activity android:name=".Eventos" />
         <activity android:name=".TelaEntrar" />
+        <activity android:name=".PerfilActivity" />
         <activity android:name=".EsqueciSenha" />
         <activity android:name=".CadastroResultado" />
         <activity

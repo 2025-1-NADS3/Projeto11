@@ -74,6 +74,8 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/edit_text"
             android:hint="Email"
+            android:backgroundTint="#F5F9FE"
+            android:textColorHint="#7C8BA0"
             android:padding="10dp" />
 
         <EditText
@@ -83,7 +85,9 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/edit_text"
             android:hint="Senha"
+            android:backgroundTint="#F5F9FE"
             android:inputType="textPassword"
+            android:textColorHint="#7C8BA0"
             android:padding="10dp" />
 
         <CheckBox

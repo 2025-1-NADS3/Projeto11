@@ -3,7 +3,9 @@ package br.fecapads.fecapassjava;
 import br.fecapads.fecapassjava.model.Evento;
 import br.fecapads.fecapassjava.services.apiService;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.Toast;
 import android.util.Log;
 
@@ -20,6 +22,7 @@ import java.util.List;
 public class Eventos extends AppCompatActivity {
     private RecyclerView recyclerView;
     private EventoAdapter eventAdapter;
+   // ImageView iconPerfil = findViewById(R.id.iconPerfil);
     private List<Evento> eventoList = new ArrayList<>();
 
     @Override
