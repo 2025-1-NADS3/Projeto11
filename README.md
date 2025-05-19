@@ -7,9 +7,19 @@
 
 ## 🎟️ FecaPass
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Adriano Xu</a>, <a href="https://www.linkedin.com/in/anie-bissoli/">Anie Bissoli</a>, <a href="https://www.linkedin.com/in/erika-santana-da-silva-88744721b/">Erika Santana</a>, <a href="https://www.linkedin.com/in/isabela-nunes-zeferino/">Isabela Nunes</a>.
+## 👥 Equipe
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/vheltai/">Vinicius Heltai</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Lopes </a>,<a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a> e <a href="https://www.linkedin.com/in/jefferson-o-silva/">Jefferson Silva</a>
+### 👨‍💻 Integrantes:
+- [Adriano Xu](https://www.linkedin.com/in/victorbarq/)
+- [Anie Bissoli](https://www.linkedin.com/in/anie-bissoli/)
+- [Erika Santana](https://www.linkedin.com/in/erika-santana-da-silva-88744721b/)
+- [Isabela Nunes](https://www.linkedin.com/in/isabela-nunes-zeferino/)
+
+### 🧑‍🏫 Professores Orientadores:
+- [Vinicius Heltai](https://www.linkedin.com/in/vheltai/)
+- [Aimar Lopes](https://www.linkedin.com/in/aimarlopes/)
+- [Francisco Escobar](https://www.linkedin.com/in/francisco-escobar/)
+- [Jefferson Silva](https://www.linkedin.com/in/jefferson-o-silva/)
 
 ## Descrição
 
