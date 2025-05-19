@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Declaração do XML e do tipo de codificação -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".excluirContaTelaPerfil">
+    <!-- O ConstraintLayout é um layout flexível que permite criar interfaces responsivas.
+         Aqui, ele está sendo usado como o layout principal da tela, com largura e altura definidas como "match_parent",
+         o que significa que ocupará o espaço disponivel na tela. -->
+
+    <ImageView
+        android:id="@+id/btnVoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:contentDescription="Voltar"
+        android:src="@drawable/voltar"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="50dp"
+        tools:ignore="MissingConstraints" />
+    <!-- Imagem do botão de voltar. Ele é posicionado no canto superior esquerdo da tela.
+         O atributo "contentDescription" é importante para acessibilidade, descrevendo a ação do botão.
+         Não foi especificada uma restrição no layout, então as ferramentas de layout ignoram isso durante o design. -->
+
+    <ImageView
+        android:id="@+id/btnConfig"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:contentDescription="Voltar"
+        android:src="@drawable/config"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="50dp" />
+    <!-- Imagem do botão de configurações. Este também fica no canto superior, mas do lado direito.
+         O "contentDescription" aqui é para acessibilidade. Assim como o botão de voltar, ele não possui restrições de layout definidas. -->
+
+    <TextView
+        android:id="@+id/textConfig"
+        android:layout_width="172dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Configurações"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+    <!-- Este TextView exibe o texto "Configurações". Ele usa a fonte personalizada "poppins_regular" e o tamanho do texto é definido em "20dp".
+         Ele é posicionado no centro da tela utilizando o ConstraintLayout, com todas as restrições que garantem seu posicionamento
+         de forma adequada na tela. -->
+
+    <Button
+        android:id="@+id/btn_excluir"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/vermelho"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Excluir conta"
+        android:textColor="@color/white"
+        app:cornerRadius="8dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="620dp"
+        tools:ignore="MissingConstraints" />
+    <!-- Botão para excluir a conta. Ele tem uma cor de fundo vermelha, o texto "Excluir conta", e um raio de borda de 8dp.
+         A posição do botão foi definida por coordenadas absolutas para o design (não sendo constrangido pelo ConstraintLayout).
+         A cor do texto é branca, e a fonte utilizada é "poppins_semibold". -->
+
+    <ImageView
+        android:id="@+id/btnSair"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:layout_gravity="start"
+        android:contentDescription="Voltar"
+        android:src="@drawable/sair"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="628dp" />
+    <!-- Imagem do botão de sair, posicionado ao lado do botão de excluir conta.
+         Não foi dada uma restrição de layout, então ele usa uma posição absoluta para o design.
+         O ícone de saída tem uma descrição de acessibilidade para garantir que pessoas com deficiência visual saibam o que o botão faz. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Fim do ConstraintLayout -->

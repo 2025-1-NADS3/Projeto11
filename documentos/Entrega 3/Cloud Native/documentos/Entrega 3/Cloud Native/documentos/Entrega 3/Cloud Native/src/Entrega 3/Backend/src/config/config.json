@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "adminfecapass",
+    "password": "Fecapass123",
+    "database": "Fecapass",
+    "host": "fecapass.mysql.database.azure.com",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}
