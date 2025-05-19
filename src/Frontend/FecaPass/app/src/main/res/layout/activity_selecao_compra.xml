@@ -82,107 +82,117 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!-- Dentro do LinearLayout com android:padding="16dp" -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+            <!-- Nome do Lote -->
+            <TextView
+                android:id="@+id/lote"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="4dp">
-                <!-- Conteúdo do CardView, se houver -->
-            </androidx.cardview.widget.CardView>
+                android:fontFamily="@font/poppins_bold"
+                android:text="Lote 1"
+                android:textColor="@color/preto"
+                android:textSize="14sp" />
 
+            <!-- Preço do Ingresso -->
+            <TextView
+                android:id="@+id/preco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="R$ 0,00"
+                android:textColor="@color/preto"
+                android:textSize="14sp" />
+
+            <!-- Informações de Parcelamento -->
+            <TextView
+                android:id="@+id/parcelamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Em até 12x sem juros"
+                android:textColor="@color/azul2"
+                android:textSize="12sp" />
+
+            <!-- Data de Validade do Lote -->
+            <TextView
+                android:id="@+id/validade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Vendas até 31/12/2025"
+                android:textColor="@color/preto"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <!-- Controle de Quantidade -->
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <!-- Nome do Lote -->
-                <TextView
-                    android:id="@+id/lote"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_bold"
-                    android:text="Lote 1"
-                    android:textColor="@color/preto"
-                    android:textSize="14sp" />
-
-                <!-- Preço do Ingresso -->
-                <TextView
-                    android:id="@+id/preco"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="R$ 0,00"
-                    android:textColor="@color/preto"
-                    android:textSize="14sp" />
-
-                <!-- Informações de Parcelamento -->
-                <TextView
-                    android:id="@+id/parcelamento"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="Em até 12x sem juros"
-                    android:textColor="@color/azul2"
-                    android:textSize="12sp" />
-
-                <!-- Data de Validade do Lote -->
-                <TextView
-                    android:id="@+id/validade"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="Vendas até 31/12/2025"
-                    android:textColor="@color/preto"
-                    android:textSize="12sp"
-                    android:textStyle="italic" />
-
-                <!-- Controle de Quantidade -->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="end"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/btnMenos"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:background="@android:drawable/btn_default"
-                        android:backgroundTint="@color/azul2"
-                        android:src="@drawable/menos"
+                <ImageButton
+                    android:id="@+id/btnMenos"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@android:drawable/btn_default"
+                    android:backgroundTint="@color/azul2"
+                    android:src="@drawable/menos"
                     android:contentDescription="Diminuir quantidade"
                     app:cornerRadius="7dp" />
 
-                    <TextView
-                        android:id="@+id/quantidadeLabel"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:layout_marginEnd="12dp"
-                        android:text="0 ingresso(s)"
-                        android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/quantidadeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:text="0 ingresso(s)"
+                    android:textSize="16sp" />
 
-                    <ImageButton
-                        android:id="@+id/btnMais"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:background="@android:drawable/btn_default"
-                        android:backgroundTint="@color/azul2"
-                        android:src="@drawable/mais"
+                <ImageButton
+                    android:id="@+id/btnMais"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@android:drawable/btn_default"
+                    android:backgroundTint="@color/azul2"
+                    android:src="@drawable/mais"
                     android:contentDescription="Aumentar quantidade"
                     app:cornerRadius="7dp" />
-                </LinearLayout>
             </LinearLayout>
+
+            <!-- Campo de Cupom -->
+            <EditText
+                android:id="@+id/etCupom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="Digite o cupom"
+                android:background="@drawable/edit_text"
+                android:padding="10dp"
+                android:textColor="@color/preto"
+                android:textColorHint="#888888" />
+
+            <!-- Botão Aplicar Cupom -->
+            <Button
+                android:id="@+id/btnAplicarCupom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/azul2"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Aplicar Cupom"
+                android:textColor="@color/branco" />
+
         </LinearLayout>
     </ScrollView>
 
