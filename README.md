@@ -7,20 +7,46 @@
 
 ## 🎟️ FecaPass
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Adriano Xu</a>, <a href="https://www.linkedin.com/in/anie-bissoli/">Anie Bissoli</a>, <a href="https://www.linkedin.com/in/erika-santana-da-silva-88744721b/">Erika Santana</a>, <a href="https://www.linkedin.com/in/isabela-nunes-zeferino/">Isabela Nunes</a>.
+## 👥 Equipe
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/vheltai/">Vinicius Heltai</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Lopes </a>,<a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>.
+### 👨‍💻 Integrantes:
+- [Adriano Xu](https://www.linkedin.com/in/victorbarq/)
+- [Anie Bissoli](https://www.linkedin.com/in/anie-bissoli/)
+- [Erika Santana](https://www.linkedin.com/in/erika-santana-da-silva-88744721b/)
+- [Isabela Nunes](https://www.linkedin.com/in/isabela-nunes-zeferino/)
+
+## 🧑‍🏫 Professores Orientadores:
+- [Vinicius Heltai](https://www.linkedin.com/in/vheltai/)
+- [Aimar Lopes](https://www.linkedin.com/in/aimarlopes/)
+- [Francisco Escobar](https://www.linkedin.com/in/francisco-escobar/)
+- [Jefferson Silva](https://www.linkedin.com/in/jefferson-o-silva/)
 
 ## Descrição
 
 <p align="center">
-<img src="https://github.com/2025-1-NADS3/Projeto11/blob/main/imagens/fecapass.png" alt="FecaPass" border="0">
+  <img src="https://raw.githubusercontent.com/2025-1-NADS3/Projeto11/main/imagens/fecapass.png" alt="FecaPass" border="0">
 </p>
 
 
-
 <br><br>
-FecaPass é uma plataforma inovadora para a compra de ingressos para eventos e palestras no Teatro FECAP. Com uma interface intuitiva, estudantes e demais interessados podem navegar pelos eventos disponíveis, selecionar ingressos e realizar pagamentos de forma rápida e segura.
+ O FecaPass é um aplicativo de gestão e distribuição de ingressos voltado para a 
+realidade acadêmica da FECAP. A plataforma permite que alunos visualizem os 
+eventos disponíveis, realizem um cadastro rápido e possam adquirir ou resgatar 
+ingressos de forma digital, com segurança e praticidade. A proposta central é 
+simplificar a organização dos eventos internos por meio de uma interface acessível e 
+adaptada ao uso mobile. O sistema permite pagamentos via Pix, e garante que cada 
+ingresso seja emitido com um código único de pedido visível na tela “Meus Ingressos” 
+que assegura a identificação e o controle de acesso no momento do evento. Além 
+disso, o aplicativo disponibiliza informações completas sobre cada atividade, incluindo 
+data, local, horário, descrição e políticas de cancelamento, ajudando tanto os 
+participantes quanto os organizadores na gestão eficiente da experiência.
+
+### Funcionalidades principais:
+- 🔍 Navegação entre eventos com data, local e políticas de cancelamento;
+- 📲 Cadastro e autenticação rápida;
+- 💳 Pagamento via Pix integrado;
+- 🔐 Código único gerado por ingresso;
+- 🎫 Tela "Meus Ingressos" para visualização e controle.
 <br><br>
 
 
@@ -77,21 +103,25 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
 
 <h3>🚀 Passo a Passo para Configurar o Android Studio</h3>
 <ol>
-  <li><b>Instale o Android Studio</b><br>
-    Acesse <a href="https://developer.android.com/studio" target="_blank">developer.android.com/studio</a> e baixe a versão mais recente para seu sistema operacional. 
+  <li><b>Baixe e Instale o Android Studio</b><br>
+    Acesse o site oficial em <a href="https://developer.android.com/studio" target="_blank">developer.android.com/studio</a> e baixe a versão mais recente compatível com seu sistema operacional (Windows, macOS ou Linux).
   </li>
-  <li><b>Configuração Inicial</b><br>
-    Após instalar, abra o Android Studio e siga as instruções para configurar o ambiente de desenvolvimento, incluindo a instalação do SDK do Android.
+
+  <li><b>Realize a Configuração Inicial</b><br>
+    Ao abrir o Android Studio pela primeira vez, siga o assistente de configuração para instalar os componentes necessários, como o Android SDK, o emulador e as ferramentas de build.
   </li>
+
   <li><b>Crie um Novo Projeto</b><br>
-    No Android Studio, clique em <code>Start a new Android Studio project</code>, escolha um modelo de atividade e configure as opções do projeto.
+    No menu inicial, clique em <code>Start a new Android Studio project</code>. Escolha um template (por exemplo, "Empty Activity"), defina o nome do aplicativo, linguagem (Java ou Kotlin), e versão mínima do SDK.
   </li>
-  <li><b>Execute o Projeto</b><br>
-    Conecte um dispositivo físico via USB ou use o emulador do Android Studio para testar o aplicativo. Clique em "Run" (ícone ▶️) para iniciar o app.
+
+  <li><b>Configure e Execute o Projeto</b><br>
+    Conecte um dispositivo Android via USB com a depuração ativada, ou inicie um emulador Android. Em seguida, clique no botão "Run" (ícone ▶️) para compilar e executar o aplicativo.
   </li>
 </ol>
 
 <hr>
+
 
 <h3>🔧 Ferramentas de Desenvolvimento:</h3>
 
@@ -127,6 +157,10 @@ Você pode visualizar o protótipo do projeto [aqui](https://www.figma.com/desig
   <li><b>Canva</b>: Para criação de ícones, banners e materiais visuais adicionais.</li>
 </ul>
 
+<h4>7. Plataforma de Hospedagem ☁️</h4>
+<ul>
+  <li><b>Microsoft Azure</b>: Utilizado para a hospedagem da aplicação, garantindo escalabilidade, segurança e alta disponibilidade.</li>
+</ul>
 
 
 ## 📋 Licença/License
@@ -139,7 +173,5 @@ Aqui estão as referências usadas no projeto.
 
 1. <https://github.com/iuricode/readme-template>
 2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://chooser-beta.creativecommons.org/>
-4. <https://freesound.org/>
-5. <https://www.toptal.com/developers/gitignore>
-6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+3. <https://developer.android.com/studio?hl=pt-br>
+4. <https://www.mercadopago.com.br/developers/pt/reference>
