@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".TermosECondicoes">
+
+    <!-- Top AppBar -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/azul1">
+
+            <ImageView
+                android:id="@+id/btnVoltar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/iconvoltar"
+                android:contentDescription="Voltar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tituloTermosECondicoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Termos e condições"
+                android:textColor="@color/branco"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.397"
+                app:layout_constraintStart_toEndOf="@id/btnVoltar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.545" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Texto informativo -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/txtPolitica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/preto"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            android:text="Sabemos que seu tempo é valioso e, por isso, elencamos abaixo os principais tópicos que, em nossa opinião, são absolutamente indispensáveis para o uso da nossa plataforma.\n\nA Fecapass é uma plataforma que facilita a venda de ingressos e de produtos e serviços relacionados ao evento, inscrição para eventos e a gestão de participantes. Todos os eventos publicados na plataforma estão sob responsabilidade de seus Produtores, uma vez que a Fecapass não produz tais eventos.\n\nCabe aos Produtores definirem as quantidades e valores dos ingressos disponibilizados para venda, regras para acesso aos eventos, políticas de reembolso, troca de titularidade, cumprimento da legislação de meia-entrada, etc.\n\nA plataforma Fecapass permite que o Produtor solicite à mesma, até o 2º dia útil após o término do evento, o cancelamento de uma venda e o consequente reembolso do valor do ingresso para o Consumidor. É de responsabilidade do Produtor comunicar a seus potenciais consumidores sua própria política de cancelamento, que deverá ser compatível com o período máximo de reembolso permitido pela Fecapass, e solicitar, quando considerar necessário, o cancelamento da transação através das ferramentas presentes na plataforma. Caso o consumidor exercite seu direito de arrependimento, o reembolso do valor do ingresso deverá ser efetuado pelo Produtor no prazo máximo de 7 (sete) dias, a contar da data da compra.\n\nO Produtor informará seus dados para repasse via conta bancária. O valor total vendido, descontada a taxa de serviço cobrada pela Fecapass, será repassado no 3º dia útil após o término real do evento, por meio de transferência bancária a uma conta indicada pelo Produtor na plataforma Fecapass." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
