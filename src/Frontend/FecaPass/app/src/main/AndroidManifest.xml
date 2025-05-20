@@ -15,8 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FecapassJava"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".Activity_faq"
+            android:exported="false" />
+        <activity
+            android:name=".TermosECondicoes"
+            android:exported="false" />
+        <activity
+            android:name=".services.PoliticaEPrivacidade"
+            android:exported="false" />
         <activity
             android:name=".ConfirmacaoPagamento"
             android:exported="false" />
@@ -35,7 +42,6 @@
         <activity
             android:name=".SelecaoCompra"
             android:exported="false" />
-
         <activity android:name=".Eventos" />
         <activity android:name=".TelaEntrar" />
         <activity android:name=".PerfilActivity" />

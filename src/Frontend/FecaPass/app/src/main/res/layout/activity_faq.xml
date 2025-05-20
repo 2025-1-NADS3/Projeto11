@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/branco"
-    tools:context=".FaqActivity">
+    android:background="@color/branco">
 
-    <!-- Top AppBar -->
+    <!-- Top AppBar Azul -->
     <androidx.cardview.widget.CardView
         android:id="@+id/topBar"
         android:layout_width="0dp"
@@ -30,31 +29,34 @@
                 android:layout_marginStart="16dp"
                 android:src="@drawable/iconvoltar"
                 android:contentDescription="Voltar"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
 
             <TextView
                 android:id="@+id/tituloFaq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="FAQs"
                 android:textColor="@color/branco"
                 android:textSize="16sp"
-                android:fontFamily="@font/poppins_semibold"
-                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@id/btnVoltar"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.4"/>
+                app:layout_constraintHorizontal_bias="0.439"
+                app:layout_constraintStart_toEndOf="@id/btnVoltar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.454" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Conteúdo das perguntas -->
+    <!-- Conteúdo (ScrollView com FAQ) -->
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:background="@color/branco"
         app:layout_constraintTop_toBottomOf="@id/topBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,17 +66,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="8dp">
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle"
+            android:dividerPadding="8dp">
 
-            <!-- PERGUNTA 1 -->
+            <!-- Suas perguntas e respostas exatamente como você mandou -->
             <TextView
                 android:id="@+id/pergunta1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="O pagamento é só via Pix?"
-                android:padding="12dp"
-                android:textSize="16sp"
                 android:textStyle="bold"
+                android:padding="16dp"
                 android:background="#DDDDDD"
                 android:textColor="@color/preto" />
 
@@ -82,77 +85,64 @@
                 android:id="@+id/resposta1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sim, a plataforma ainda não aceita outras formas de pagamento."
-                android:padding="12dp"
-                android:textSize="14sp"
-                android:visibility="gone" />
+                android:text="Sim. Atualmente, a plataforma aceita apenas pagamentos via Pix."
+                android:padding="16dp"
+                android:textColor="@color/preto" />
 
-            <!-- PERGUNTA 2 -->
             <TextView
                 android:id="@+id/pergunta2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Posso comprar mais de um ingresso?"
-                android:padding="12dp"
-                android:textSize="16sp"
                 android:textStyle="bold"
+                android:padding="16dp"
                 android:background="#DDDDDD"
-                android:layout_marginTop="12dp"
                 android:textColor="@color/preto" />
 
             <TextView
                 android:id="@+id/resposta2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sim, você pode selecionar múltiplos ingressos na hora da compra."
-                android:padding="12dp"
-                android:textSize="14sp"
-                android:visibility="gone" />
+                android:text="Sim! É possível selecionar a quantidade de ingressos antes de finalizar a compra."
+                android:padding="16dp"
+                android:textColor="@color/preto" />
 
-            <!-- PERGUNTA 3 -->
             <TextView
                 android:id="@+id/pergunta3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Como faço para cancelar meu ingresso?"
-                android:padding="12dp"
-                android:textSize="16sp"
+                android:text="O que acontece se o evento for cancelado?"
                 android:textStyle="bold"
+                android:padding="16dp"
                 android:background="#DDDDDD"
-                android:layout_marginTop="12dp"
                 android:textColor="@color/preto" />
 
             <TextView
                 android:id="@+id/resposta3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Você pode solicitar o cancelamento até 2 dias úteis após o evento, conforme regras do produtor."
-                android:padding="12dp"
-                android:textSize="14sp"
-                android:visibility="gone" />
+                android:text="Caso o evento seja cancelado, o produtor será responsável por realizar o reembolso."
+                android:padding="16dp"
+                android:textColor="@color/preto" />
 
-            <!-- PERGUNTA 4 -->
             <TextView
                 android:id="@+id/pergunta4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Porque não consegui solicitar meu reembolso?"
-                android:padding="12dp"
-                android:textSize="16sp"
+                android:text="Consigo alterar o titular do ingresso?"
                 android:textStyle="bold"
+                android:padding="16dp"
                 android:background="#DDDDDD"
-                android:layout_marginTop="12dp"
                 android:textColor="@color/preto" />
 
             <TextView
                 android:id="@+id/resposta4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pode ter passado o prazo ou a política do evento não permite o reembolso. Verifique os detalhes no app."
-                android:padding="12dp"
-                android:textSize="14sp"
-                android:visibility="gone" />
+                android:text="Sim. Basta acessar seu ingresso e clicar na opção de troca de titularidade (se habilitada pelo produtor)."
+                android:padding="16dp"
+                android:textColor="@color/preto" />
+
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
