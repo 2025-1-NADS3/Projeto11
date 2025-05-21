@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#005A66"> <!-- Fundo verde escuro -->
+
+        <!-- Círculo branco central -->
+        <ImageView
+            android:id="@+id/circleImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/elipse"
+            android:scaleType="centerInside" />
+
+        <!-- Logo centralizado dentro do círculo -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="215dp"
+            android:layout_height="109dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fecapasslogo" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
